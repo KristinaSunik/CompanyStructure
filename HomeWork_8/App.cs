@@ -8,16 +8,16 @@ namespace HomeWork_8
         public static void Run()
         {
             
-            List<Department> departments = new List<Department>();
-            List<Worker> workers = new List<Worker>();
-            string path = "_company.xml";
+            List<Department> departments = new List<Department>();  //Создаем пустой список департаментов
+            List<Worker> workers = new List<Worker>();              //Создаем пустой список работников
+            string path = "_company.xml";                           //Путь для хранения всей структуры компании
 
-            CreateCompanyStructure.CreateWorkers(path);
+            CreateCompanyStructure.CreateWorkers(path);             //Заполняем списки департаментов и работников рандомными данными, сохраняя данные в XML
 
-            Worker.AddWorkersToList(workers, path);
-            Department.AddDeptsToList(departments, workers);
+            Worker.AddWorkersToList(workers, path);                 //Заполняем список департаментов данными из XML файла
+            Department.AddDeptsToList(departments, workers);        //Заполняем список работников данными из XML файла
 
-            while (true)
+            while (true) //Работа самого приложения(добавление/удаление/вывод данных на консоль)
             {
                 Console.WriteLine($"Выберите действие:{Environment.NewLine}" +
                     $"1. Добавить отдел {Environment.NewLine}" +
@@ -38,19 +38,19 @@ namespace HomeWork_8
                 {
                     Console.WriteLine("Вы выбрали - Добавить работника в отдел");
                     Console.WriteLine("В какой отдел вы хотите добавить работника?");
-                    int deptNumber = Department.Choose(departments);
-                    string currentDept = departments[deptNumber].Name;
-                    Console.WriteLine("ВВедите имя работника:");
+                    int deptNumber = Department.Choose(departments);                    //Номер отдела с которым работаем
+                    string currentDept = departments[deptNumber].Name;                  //Название отдела с которым работаем
+                    Console.WriteLine("Введите имя работника:");
                     string name = Console.ReadLine();
-                    Console.WriteLine("ВВедите фамилию работника:");
+                    Console.WriteLine("Введите фамилию работника:");
                     string surname = Console.ReadLine();
-                    Console.WriteLine("ВВедите зарплату работника:");
+                    Console.WriteLine("Введите зарплату работника:");
                     int salary = CheckInput.CheckUserData();
-                    Console.WriteLine("ВВедите возраст работника:");
+                    Console.WriteLine("Введите возраст работника:");
                     int age = CheckInput.CheckUserData();
-                    Console.WriteLine("ВВедите количество проектов у работника:");
+                    Console.WriteLine("Введите количество проектов у работника:");
                     int projects = CheckInput.CheckUserData();
-                    int workerID = workers[workers.Count - 1].UnicNumber - 1;
+                    int workerID = workers[workers.Count - 1].UnicNumber - 1;           //Вычисляем последующий уникальный номер работника
                     FileProvider.AddWorkerToFile(workers, path, name, surname, salary, age, projects, currentDept);
                     Worker.AddWorkerToList(workers, workerID, name, surname, salary, age, projects, currentDept);
                     Department.AddWorkerToDept(departments, deptNumber, workerID);
@@ -60,18 +60,18 @@ namespace HomeWork_8
                 {
                     Console.WriteLine("Вы выбрали - Удалить работника из отдела");
                     Console.WriteLine("Из какого отдела вы хотите удалить работника?");
-                    int deptNumber = Department.Choose(departments);
-                    List<Worker> sortedByDept = Sort.SortByDept(workers, departments, deptNumber);
+                    int deptNumber = Department.Choose(departments);                                //Номер отдела с которым работаем
+                    List<Worker> sortedByDept = Sort.SortByDept(workers, departments, deptNumber);   //Список работников только из этого департамента
                     Worker.PrintAll(sortedByDept);
                     Console.WriteLine("Выберите работника для удаления и введите его номер №:");
-                    int workerIDfromUser = CheckInput.CheckUserData();
+                    int workerIDfromUser = CheckInput.CheckUserData();                               //сохраняем выбранный пользователем уникальный номер работника
                     if (Worker.DeleteWorkerFromList(sortedByDept, workers, workerIDfromUser))
                     {
                         Console.WriteLine("Работник успешно удален");
                     }
                     else
                     {
-                        Console.WriteLine("Работника с таким номером не оказалось");
+                        Console.WriteLine("Работника с таким номером не оказалось");               //если такого номера не обнаружилось(ошибка ввода пользователем)
                     }
                     Worker.DeleteWorkerFromList(sortedByDept, workers, workerIDfromUser);
                     Department.DeleteWorkerFromDept(departments, deptNumber, workerIDfromUser);
@@ -110,8 +110,8 @@ namespace HomeWork_8
                 {
                     Console.WriteLine("Вы выбрали - Показать всех работников отдела");
                     Console.WriteLine("Из какого отдела вы хотите посмотреть работников?");
-                    int deptNumber = Department.Choose(departments);
-                    List<Worker> sortedByDept = Sort.SortByDept(workers, departments, deptNumber);
+                    int deptNumber = Department.Choose(departments);                                 //Номер отдела с которым работаем
+                    List<Worker> sortedByDept = Sort.SortByDept(workers, departments, deptNumber);   //Список работников только из этого департамента
                     Worker.PrintAll(sortedByDept);
                 }
                 else if (userNumber == 7)
@@ -121,7 +121,7 @@ namespace HomeWork_8
                 }
                 else if (userNumber == 8)
                 {
-                    Console.WriteLine("Вы выбрали - ывести информацию о работниках");
+                    Console.WriteLine("Вы выбрали - Вывести информацию о работниках");
                     Worker.PrintAll(workers);
                 }
             }
