@@ -1,0 +1,507 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CompanyStructure>
+  <WORKER>
+    <unicNumber>1</unicNumber>
+    <name>Олег</name>
+    <surname>Сидоров</surname>
+    <dept>Отдел продаж</dept>
+    <salary>42116</salary>
+    <age>45</age>
+    <projects>2</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>2</unicNumber>
+    <name>Константин</name>
+    <surname>Сюник</surname>
+    <dept>Отдел продаж</dept>
+    <salary>41119</salary>
+    <age>45</age>
+    <projects>1</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>3</unicNumber>
+    <name>Руслан</name>
+    <surname>Шуканов</surname>
+    <dept>Отдел продаж</dept>
+    <salary>60220</salary>
+    <age>46</age>
+    <projects>5</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>4</unicNumber>
+    <name>Олег</name>
+    <surname>Петров</surname>
+    <dept>Отдел продаж</dept>
+    <salary>38221</salary>
+    <age>22</age>
+    <projects>4</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>5</unicNumber>
+    <name>Руслан</name>
+    <surname>Иванов</surname>
+    <dept>Отдел продаж</dept>
+    <salary>56505</salary>
+    <age>45</age>
+    <projects>5</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>6</unicNumber>
+    <name>Антон</name>
+    <surname>Зейналов</surname>
+    <dept>Отдел продаж</dept>
+    <salary>83631</salary>
+    <age>20</age>
+    <projects>2</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>7</unicNumber>
+    <name>Феодосий</name>
+    <surname>Иванов</surname>
+    <dept>Отдел безопасности</dept>
+    <salary>53131</salary>
+    <age>31</age>
+    <projects>1</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>8</unicNumber>
+    <name>Кондратий</name>
+    <surname>Шуканов</surname>
+    <dept>Отдел безопасности</dept>
+    <salary>38184</salary>
+    <age>44</age>
+    <projects>3</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>9</unicNumber>
+    <name>Кондратий</name>
+    <surname>Зейналов</surname>
+    <dept>Отдел безопасности</dept>
+    <salary>57176</salary>
+    <age>26</age>
+    <projects>1</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>10</unicNumber>
+    <name>Феодосий</name>
+    <surname>Сидоров</surname>
+    <dept>Отдел безопасности</dept>
+    <salary>39349</salary>
+    <age>37</age>
+    <projects>3</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>11</unicNumber>
+    <name>Руслан</name>
+    <surname>Баранов</surname>
+    <dept>Финансовый отдел</dept>
+    <salary>48912</salary>
+    <age>25</age>
+    <projects>2</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>12</unicNumber>
+    <name>Руслан</name>
+    <surname>Сидоров</surname>
+    <dept>Финансовый отдел</dept>
+    <salary>83834</salary>
+    <age>33</age>
+    <projects>1</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>13</unicNumber>
+    <name>Руслан</name>
+    <surname>Кукушкин</surname>
+    <dept>Финансовый отдел</dept>
+    <salary>48700</salary>
+    <age>27</age>
+    <projects>4</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>14</unicNumber>
+    <name>Феодосий</name>
+    <surname>Иванов</surname>
+    <dept>Финансовый отдел</dept>
+    <salary>52938</salary>
+    <age>26</age>
+    <projects>3</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>15</unicNumber>
+    <name>Кондратий</name>
+    <surname>Зейналов</surname>
+    <dept>Финансовый отдел</dept>
+    <salary>26053</salary>
+    <age>42</age>
+    <projects>2</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>16</unicNumber>
+    <name>Евгений</name>
+    <surname>Трофименко</surname>
+    <dept>Финансовый отдел</dept>
+    <salary>50003</salary>
+    <age>28</age>
+    <projects>3</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>17</unicNumber>
+    <name>Евгений</name>
+    <surname>Шуканов</surname>
+    <dept>Отдел по работе с клиентами</dept>
+    <salary>71045</salary>
+    <age>43</age>
+    <projects>4</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>18</unicNumber>
+    <name>Руслан</name>
+    <surname>Петров</surname>
+    <dept>Отдел по работе с клиентами</dept>
+    <salary>38156</salary>
+    <age>26</age>
+    <projects>3</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>19</unicNumber>
+    <name>Александр</name>
+    <surname>Кукушкин</surname>
+    <dept>Отдел по работе с клиентами</dept>
+    <salary>69259</salary>
+    <age>37</age>
+    <projects>4</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>20</unicNumber>
+    <name>Феодосий</name>
+    <surname>Иванов</surname>
+    <dept>Отдел по борьбе с коррупцией</dept>
+    <salary>59296</salary>
+    <age>46</age>
+    <projects>1</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>21</unicNumber>
+    <name>Александр</name>
+    <surname>Петров</surname>
+    <dept>Отдел по борьбе с коррупцией</dept>
+    <salary>79483</salary>
+    <age>35</age>
+    <projects>4</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>22</unicNumber>
+    <name>Евгений</name>
+    <surname>Кукушкин</surname>
+    <dept>Отдел по борьбе с коррупцией</dept>
+    <salary>25237</salary>
+    <age>19</age>
+    <projects>4</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>23</unicNumber>
+    <name>Константин</name>
+    <surname>Иванов</surname>
+    <dept>Отдел по борьбе с коррупцией</dept>
+    <salary>34295</salary>
+    <age>42</age>
+    <projects>1</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>24</unicNumber>
+    <name>Евгений</name>
+    <surname>Кукушкин</surname>
+    <dept>Отдел по борьбе с коррупцией</dept>
+    <salary>75368</salary>
+    <age>21</age>
+    <projects>1</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>26</unicNumber>
+    <name>Александр</name>
+    <surname>Кукушкин</surname>
+    <dept>Отдел информационных технологий</dept>
+    <salary>31544</salary>
+    <age>19</age>
+    <projects>2</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>27</unicNumber>
+    <name>Кондратий</name>
+    <surname>Кукушкин</surname>
+    <dept>Отдел информационных технологий</dept>
+    <salary>73678</salary>
+    <age>37</age>
+    <projects>4</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>28</unicNumber>
+    <name>Олег</name>
+    <surname>Трофименко</surname>
+    <dept>Отдел информационных технологий</dept>
+    <salary>25055</salary>
+    <age>26</age>
+    <projects>5</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>29</unicNumber>
+    <name>Руслан</name>
+    <surname>Трофименко</surname>
+    <dept>Отдел информационных технологий</dept>
+    <salary>75912</salary>
+    <age>32</age>
+    <projects>1</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>30</unicNumber>
+    <name>Константин</name>
+    <surname>Петров</surname>
+    <dept>Отдел информационных технологий</dept>
+    <salary>26061</salary>
+    <age>38</age>
+    <projects>3</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>31</unicNumber>
+    <name>Антон</name>
+    <surname>Кукушкин</surname>
+    <dept>Отдел информационных технологий</dept>
+    <salary>40572</salary>
+    <age>20</age>
+    <projects>5</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>32</unicNumber>
+    <name>Кондратий</name>
+    <surname>Игуанов</surname>
+    <dept>Отдел информационных технологий</dept>
+    <salary>60167</salary>
+    <age>45</age>
+    <projects>1</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>33</unicNumber>
+    <name>Феодосий</name>
+    <surname>Трофименко</surname>
+    <dept>Отдел информационных технологий</dept>
+    <salary>79144</salary>
+    <age>37</age>
+    <projects>5</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>34</unicNumber>
+    <name>Евгений</name>
+    <surname>Кукушкин</surname>
+    <dept>Отдел по борьбе с преступностью</dept>
+    <salary>39598</salary>
+    <age>39</age>
+    <projects>1</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>35</unicNumber>
+    <name>Александр</name>
+    <surname>Шуканов</surname>
+    <dept>Отдел по борьбе с преступностью</dept>
+    <salary>84077</salary>
+    <age>27</age>
+    <projects>5</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>36</unicNumber>
+    <name>Константин</name>
+    <surname>Кукушкин</surname>
+    <dept>Отдел по борьбе с преступностью</dept>
+    <salary>32195</salary>
+    <age>22</age>
+    <projects>3</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>37</unicNumber>
+    <name>Руслан</name>
+    <surname>Сюник</surname>
+    <dept>Отдел по борьбе с преступностью</dept>
+    <salary>29836</salary>
+    <age>47</age>
+    <projects>1</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>38</unicNumber>
+    <name>Геннадий</name>
+    <surname>Сидоров</surname>
+    <dept>Отдел по борьбе с преступностью</dept>
+    <salary>88685</salary>
+    <age>28</age>
+    <projects>4</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>39</unicNumber>
+    <name>Кондратий</name>
+    <surname>Баранов</surname>
+    <dept>Отдел по борьбе с преступностью</dept>
+    <salary>46860</salary>
+    <age>21</age>
+    <projects>4</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>40</unicNumber>
+    <name>Константин</name>
+    <surname>Иванов</surname>
+    <dept>Отдел кнута и пряника</dept>
+    <salary>31790</salary>
+    <age>43</age>
+    <projects>4</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>41</unicNumber>
+    <name>Антон</name>
+    <surname>Трофименко</surname>
+    <dept>Отдел кнута и пряника</dept>
+    <salary>30467</salary>
+    <age>31</age>
+    <projects>4</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>42</unicNumber>
+    <name>Кондратий</name>
+    <surname>Сюник</surname>
+    <dept>Отдел кнута и пряника</dept>
+    <salary>83462</salary>
+    <age>34</age>
+    <projects>2</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>43</unicNumber>
+    <name>Антон</name>
+    <surname>Кукушкин</surname>
+    <dept>Отдел кнута и пряника</dept>
+    <salary>64658</salary>
+    <age>23</age>
+    <projects>5</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>44</unicNumber>
+    <name>Александр</name>
+    <surname>Сидоров</surname>
+    <dept>Отдел кнута и пряника</dept>
+    <salary>47396</salary>
+    <age>22</age>
+    <projects>3</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>45</unicNumber>
+    <name>Геннадий</name>
+    <surname>Сюник</surname>
+    <dept>Отдел кнута и пряника</dept>
+    <salary>22585</salary>
+    <age>31</age>
+    <projects>5</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>46</unicNumber>
+    <name>Антон</name>
+    <surname>Шуканов</surname>
+    <dept>Отдел кнута и пряника</dept>
+    <salary>38366</salary>
+    <age>43</age>
+    <projects>5</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>47</unicNumber>
+    <name>Феодосий</name>
+    <surname>Баранов</surname>
+    <dept>Отдел кредитования</dept>
+    <salary>72036</salary>
+    <age>24</age>
+    <projects>3</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>48</unicNumber>
+    <name>Геннадий</name>
+    <surname>Зейналов</surname>
+    <dept>Отдел кредитования</dept>
+    <salary>36063</salary>
+    <age>40</age>
+    <projects>1</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>49</unicNumber>
+    <name>Кондратий</name>
+    <surname>Иванов</surname>
+    <dept>Отдел кредитования</dept>
+    <salary>75690</salary>
+    <age>19</age>
+    <projects>2</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>50</unicNumber>
+    <name>Константин</name>
+    <surname>Сидоров</surname>
+    <dept>Отдел кредитования</dept>
+    <salary>79853</salary>
+    <age>25</age>
+    <projects>4</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>51</unicNumber>
+    <name>Феодосий</name>
+    <surname>Кукушкин</surname>
+    <dept>Отдел кредитования</dept>
+    <salary>67244</salary>
+    <age>29</age>
+    <projects>5</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>52</unicNumber>
+    <name>Олег</name>
+    <surname>Сидоров</surname>
+    <dept> Караськин пруд</dept>
+    <salary>89463</salary>
+    <age>46</age>
+    <projects>2</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>53</unicNumber>
+    <name>Олег</name>
+    <surname>Сюник</surname>
+    <dept> Караськин пруд</dept>
+    <salary>68310</salary>
+    <age>39</age>
+    <projects>4</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>54</unicNumber>
+    <name>Геннадий</name>
+    <surname>Баранов</surname>
+    <dept> Караськин пруд</dept>
+    <salary>55220</salary>
+    <age>26</age>
+    <projects>1</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>55</unicNumber>
+    <name>Геннадий</name>
+    <surname>Кукушкин</surname>
+    <dept> Караськин пруд</dept>
+    <salary>65940</salary>
+    <age>23</age>
+    <projects>1</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>56</unicNumber>
+    <name>Александр</name>
+    <surname>Кукушкин</surname>
+    <dept> Караськин пруд</dept>
+    <salary>86277</salary>
+    <age>31</age>
+    <projects>1</projects>
+  </WORKER>
+  <WORKER>
+    <unicNumber>57</unicNumber>
+    <name>Александр</name>
+    <surname>Сюник</surname>
+    <dept> Караськин пруд</dept>
+    <salary>32839</salary>
+    <age>36</age>
+    <projects>5</projects>
+  </WORKER>
+</CompanyStructure>
